@@ -13,7 +13,7 @@ Modules are divided into:
       
       #### The [Capstone project]() requires throrough understanding of the kinematic Bicycle model and implementation of Vehicle Longitudinal and Lateral Control. I completed the course with 98%, with 100% grade in the Final Project
 
-*   [State Estimation and Localization for Self-Driving Cars](https://https://github.com/smit585/SelfDrivingCar/tree/master/Course%202%20State%20Estimation%20and%20Localization)
+*   [State Estimation and Localization for Self-Driving Cars](https://github.com/smit585/SelfDrivingCar/tree/master/Course%202%20State%20Estimation%20and%20Localization)
       * Introduces [Least Squares](https://github.com/smit585/SelfDrivingCar/blob/master/Course%202%20State%20Estimation%20and%20Localization/Week%201%20Least%20Squared%20Error/C2M1L1.ipynb) to find a best fit line to a linar model. Augmented Least Squares to a [Recursive approach](https://github.com/smit585/SelfDrivingCar/blob/master/Course%202%20State%20Estimation%20and%20Localization/Week%201%20Least%20Squared%20Error/C2M1L2.ipynb) so the former can be deployed on a data stream and fit being calculated on the fly.
       * Unfolds the [Kalman Filters](https://github.com/smit585/SelfDrivingCar/blob/master/Course%202%20State%20Estimation%20and%20Localization/Week%202%20Karman%20Filters/Extended%20Karman%20Filters%20Solution.ipynb) and how to calculate estimate with a stream of data
       * Introduces Linearization of Non-Linear Models and using Extended Kalman Filters to find the estimate using a predictive model and a measurement model. Enhances Vanilla EKF to estimate error instead of the complete Non linear model and establishes the concept of Error State Extended Kalman Filters (ES-EKF)
