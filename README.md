@@ -5,13 +5,13 @@ This repository contains my solution code to the assignments and capstone projec
 Modules are divided into:
 
 
-*   [Introduction to Self-Driving Cars](https://)
+*   [Introduction to Self-Driving Cars](https://github.com/smit585/SelfDrivingCar/tree/master/Course%201%20Introduction%20to%20Self%20Driving%20Car)
       *  This module introduces to the overview of the Complete Autonomous Driving Stack
       *  Explains standards and Protocols that should be followed while designing Autonomous Driving Stack
-      * Designs Vehicle Kinematic (Bicycle) and Dynamic Model
-      * Design Vehicle Longitudinal and Lateral Control
+      * Designs Vehicle Kinematic ([Bicycle](https://github.com/smit585/SelfDrivingCar/blob/master/Course%201%20Introduction%20to%20Self%20Driving%20Car/%20Week%204%20Vehicle%20Dynamimc%20Modeling/%20Kinematic%20Bicycle%20Model.ipynb)) and Dynamic Model
+      * Design [Vehicle Longitudinal](https://github.com/smit585/SelfDrivingCar/blob/master/Course%201%20Introduction%20to%20Self%20Driving%20Car/%20Week%204%20Vehicle%20Dynamimc%20Modeling/LongitudinalControl.ipynb) and Lateral Control
       
-      #### The [Capstone project]() requires throrough understanding of the kinematic Bicycle model and implementation of Vehicle Longitudinal and Lateral Control. I completed the course with 98%, with 100% grade in the Final Project
+      #### In the [Capstone project](https://github.com/smit585/SelfDrivingCar/tree/master/Course%201%20Introduction%20to%20Self%20Driving%20Car/Week%207%20Putting%20it%20All%20Together), I creeated a Bicycle Model controller with De-Coupled Lateral and Longitdunal Control. This controller is expected to trace the provided waypoints and velocity with the highest accuracy. I implemented a **PID Controller** to manipulate the longitudinal control and **Stanely Controller** to implement lateral control. I completed the course with 98%, with 100% grade in the Final Project 
 
 *   [State Estimation and Localization for Self-Driving Cars](https://github.com/smit585/SelfDrivingCar/tree/master/Course%202%20State%20Estimation%20and%20Localization)
       * Introduces [Least Squares](https://github.com/smit585/SelfDrivingCar/blob/master/Course%202%20State%20Estimation%20and%20Localization/Week%201%20Least%20Squared%20Error/C2M1L1.ipynb) to find a best fit line to a linar model. Augmented Least Squares to a [Recursive approach](https://github.com/smit585/SelfDrivingCar/blob/master/Course%202%20State%20Estimation%20and%20Localization/Week%201%20Least%20Squared%20Error/C2M1L2.ipynb) so the former can be deployed on a data stream and fit being calculated on the fly.
